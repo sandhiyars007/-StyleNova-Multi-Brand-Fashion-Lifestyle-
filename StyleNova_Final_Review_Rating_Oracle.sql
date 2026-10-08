@@ -1,7 +1,3 @@
--- StyleNova - Review and Rating Management
--- FINAL ORACLE SQL
--- Customer and Product tables must already exist.
-
 CREATE TABLE StyleNova_Review (
     Review_ID NUMBER(10) PRIMARY KEY,
     Customer_ID NUMBER(10) NOT NULL,
